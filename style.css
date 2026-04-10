@@ -231,3 +231,48 @@ button:hover {
         transform: translateX(0);
     }
 }
+
+/* ---------- Responsive Design ---------- */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+
+  .gallery img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .menu-item {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 14px;
+  }
+}
